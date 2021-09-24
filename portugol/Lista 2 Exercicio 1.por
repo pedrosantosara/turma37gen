@@ -1,38 +1,23 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-		real a,b,c,calc
-		
+		real pesoTomate,excesso,multa
 
-		escreva("Digite o número A: ")
-		leia(a)
-		escreva("Digite o número B: ")
-		leia(b)
-		escreva("Digite o número C: ")
-		leia(c)
-		
-		a = (a+b)
-		a = mat.potencia(a,2.0)
-		b = (b+c)
-		b= mat.potencia(b,2.0)
-		
-		calc = (a+b)/2
+		escreva("Digite o peso dos tomates: ")
+		leia(pesoTomate)
 
-		escreva(calc)
-
+		se (pesoTomate > 50){
+			escreva("Peso excedente, pagar multa \n")
+			excesso = pesoTomate - 50
+			multa = excesso * 4
+			escreva ("voce tem que pagar: ",multa )
+		}
 		
-		
-	
-
-	
-		
-
-		
-
-		
+		senao {
+			escreva("Pode passar")
+		}
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -40,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 95; 
+ * @POSICAO-CURSOR = 44; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
