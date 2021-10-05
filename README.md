@@ -4,6 +4,6 @@
  
 ## Sobre cada Bloco 
  
- Bloco 1 : Java e logica de programação
- Bloco 2 : MySql,Docker,Spring Boot
- Bloco 3 : Html,Css,JavaScript,TypeScript,Angular
+ <p>Bloco 1 : Java e logica de programação
+ <p>Bloco 2 : MySql,Docker,Spring Boot
+ <p>Bloco 3 : Html,Css,JavaScript,TypeScript,Angular
