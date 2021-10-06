@@ -10,7 +10,7 @@ public class Exercicio4 {
 		char sexo,personalidade;
 		
 		
-		while(i<1) {
+		while(i<150) {
 			i++;
 			System.out.println("Digite sua idade: ");
 			idade = leia.nextInt();
