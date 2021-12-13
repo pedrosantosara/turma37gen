@@ -12,11 +12,11 @@ CREATE TABLE tb_funcionaries (
 
 INSERT INTO tb_funcionaries (nome,email,matricula,salaraio)
 VALUES
-(Maria, maria@email.com, JHYuiyfTYdY46576, 5000.00),
-(Jane, jane@email.com, UFITRGVHLI546518, 2000.24),
-(Danillo, danillo@email.com, UFJHOYT46871984, 1000.00),
-(Juvelina, juvelina@email.com, 123153552, 2344.00),
-(Arthurlisson, art@email.com, 84848484838, 1233.00);
+(Fernanda, maria@email.com, JHYuiyfTYdY46576, 5000.00),
+(Marcio, jane@email.com, fku48ffjgjdgdfg, 4044.00),
+(pedro, pedro@email.com Ugjgjdgd, 1000.00),
+(victoria, juvelina@email.com, 123153552, 2344.00),
+(matheus, art@email.com, 84848484838, 1233.00);
 
 SELECT  FROM tb_funcionaries;
 SELECT  FROM tb_funcionaries WHERE salario  2000.00;
